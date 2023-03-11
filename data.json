@@ -1,0 +1,168 @@
+{
+  "books": [
+    {"title": "Лучшие современные учебники по английскому языку",
+      "arr": [
+        {
+          "id": 1,
+          "title": "«Математика для взрослых. Лайфхаки для повседневных вычислений»",
+          "author": "Кьяртан Поскитт",
+          "lang": "kz",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 2,
+          "title": "«Красота в квадрате. Как цифры отражают жизнь и жизнь отражает цифры»",
+          "author": "Алекс Беллос",
+          "lang": "ru",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 3,
+          "title": "«Думай, как математик»",
+          "author": "Барбара Оакли",
+          "lang": "en",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        }
+      ]},
+
+
+    {"title": "5 книг для личностного роста и саморазвития",
+      "arr": [
+        {
+          "id": 1,
+          "title": "«Математика для взрослых. Лайфхаки для повседневных вычислений»",
+          "author": "Кьяртан Поскитт",
+          "lang": "kz",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 2,
+          "title": "«Красота в квадрате. Как цифры отражают жизнь и жизнь отражает цифры»",
+          "author": "Алекс Беллос",
+          "lang": "ru",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 3,
+          "title": "«Думай, как математик»",
+          "author": "Барбара Оакли",
+          "lang": "en",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        }
+      ]},
+
+
+    {"title": "Книги по математике",
+      "arr": [
+        {
+          "id": 1,
+          "title": "«Математика для взрослых. Лайфхаки для повседневных вычислений»",
+          "author": "Кьяртан Поскитт",
+          "lang": "kz",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 2,
+          "title": "«Красота в квадрате. Как цифры отражают жизнь и жизнь отражает цифры»",
+          "author": "Алекс Беллос",
+          "lang": "ru",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 3,
+          "title": "«Думай, как математик»",
+          "author": "Барбара Оакли",
+          "lang": "en",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        }
+      ]
+    }
+
+  ],
+
+  "books2": [
+    {
+      "Лучшие современные учебники по английскому языку": [
+        {
+          "id": 1,
+          "title": "«Математика для взрослых. Лайфхаки для повседневных вычислений»",
+          "author": "Кьяртан Поскитт",
+          "lang": "kz",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 2,
+          "title": "«Красота в квадрате. Как цифры отражают жизнь и жизнь отражает цифры»",
+          "author": "Алекс Беллос",
+          "lang": "ru",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 3,
+          "title": "«Думай, как математик»",
+          "author": "Барбара Оакли",
+          "lang": "en",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        }
+      ],
+
+      "5 книг для личностного роста и саморазвития": [
+        {
+          "id": 1,
+          "title": "«Математика для взрослых. Лайфхаки для повседневных вычислений»",
+          "author": "Кьяртан Поскитт",
+          "lang": "kz",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 2,
+          "title": "«Красота в квадрате. Как цифры отражают жизнь и жизнь отражает цифры»",
+          "author": "Алекс Беллос",
+          "lang": "ru",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 3,
+          "title": "«Думай, как математик»",
+          "author": "Барбара Оакли",
+          "lang": "en",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        }
+      ],
+      "Книги по математике": [
+        {
+          "id": 1,
+          "title": "«Математика для взрослых. Лайфхаки для повседневных вычислений»",
+          "author": "Кьяртан Поскитт",
+          "lang": "kz",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 2,
+          "title": "«Красота в квадрате. Как цифры отражают жизнь и жизнь отражает цифры»",
+          "author": "Алекс Беллос",
+          "lang": "ru",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        },
+        {
+          "id": 3,
+          "title": "«Думай, как математик»",
+          "author": "Барбара Оакли",
+          "lang": "en",
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+        }
+      ]
+    }
+  ],
+
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
