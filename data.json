@@ -1,4 +1,93 @@
 {
+  "list_reports": 
+    {
+      "Актуарии": {
+        "1500": {
+          "01": {
+            "author": "Гусейнов Ш.",
+            "data_approve": "24.02.2023",
+            "name": "Получатели СВут 0702 за период",
+            "params": {
+              "date_from": "sysdate",
+              "rfpm_id": "0702"
+            },
+            "proc": "rep_dia_0702_01"
+          },
+          "02": {
+            "author": "Гусейнов Ш.",
+            "data_approve": "24.02.2023",
+            "name": "Получатели СВпт 0703 за период",
+            "params": {
+              "date_from": "sysdate",
+              "rfpm_id": "0703"
+            },
+            "proc": "rep_dia_0702_01"
+          },
+          "live_time": "10000",
+          "module_dir": "reports.AKTUAR"
+        }
+      },
+      "ДИА": {
+        "1500": {
+          "01": {
+            "author": "Гусейнов Ш.",
+            "data_approve": "13.02.2023",
+            "name": "Количество иждивенцев и сумма 0701 за период",
+            "params": {
+              "p1": "rfpm_id",
+              "p2": "date_from",
+              "p3": "date_to"
+            },
+            "proc": "rep_dia_0701_01"
+          },
+          "02": {
+            "author": "Гусейнов Ш.",
+            "data_approve": "14.02.2023",
+            "name": "Списочный состав иждивенцев",
+            "params": {
+              "p1": "date_from",
+              "p2": "date_to"
+            },
+            "proc": "rep_dia_0701_02"
+          },
+          "03": {
+            "author": "Гусейнов Ш.",
+            "data_approve": "14.02.2023",
+            "name": "Списочный состав получателей 0701, с ребенком до 3 лет",
+            "params": {
+              "p1": "date_from",
+              "p2": "date_to"
+            },
+            "proc": "rep_dia_0701_03"
+          },
+          "04": {
+            "author": "Гусейнов Ш.",
+            "data_approve": "14.02.2023",
+            "name": "Списочный состав получателей 0701, с иждивенцем старше 18 лет",
+            "params": {
+              "p1": "date_from",
+              "p2": "date_to"
+            },
+            "proc": "rep_dia_0701_04.py"
+          },
+          "05": {
+            "author": "Гусейнов Ш.",
+            "data_approve": "14.02.2023",
+            "name": "Получатели СВут 0702 за период",
+            "params": {
+              "p1": "rfpm_id",
+              "p2": "date_from",
+              "p3": "date_to"
+            },
+            "proc": "rep_dia_0702_01"
+          },
+          "live_time": "72",
+          "module_dir": "reports.DIA"
+        }
+      }
+    }
+  ,
+
   "books": [
     {"title": "Лучшие современные учебники по английскому языку",
       "arr": [
@@ -7,21 +96,24 @@
           "title": "«Математика для взрослых. Лайфхаки для повседневных вычислений»",
           "author": "Кьяртан Поскитт",
           "lang": "kz",
-          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/",
+          "publish_date": "2023-03-19"
         },
         {
           "id": 2,
           "title": "«Красота в квадрате. Как цифры отражают жизнь и жизнь отражает цифры»",
           "author": "Алекс Беллос",
           "lang": "ru",
-          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/",
+          "publish_date": "2023-02-10"
         },
         {
           "id": 3,
           "title": "«Думай, как математик»",
           "author": "Барбара Оакли",
           "lang": "en",
-          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/",
+          "publish_date": "2022-01-15"
         }
       ]},
 
@@ -33,21 +125,24 @@
           "title": "«Математика для взрослых. Лайфхаки для повседневных вычислений»",
           "author": "Кьяртан Поскитт",
           "lang": "kz",
-          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/",
+          "publish_date": "2022-03-03"
         },
         {
           "id": 2,
           "title": "«Красота в квадрате. Как цифры отражают жизнь и жизнь отражает цифры»",
           "author": "Алекс Беллос",
           "lang": "ru",
-          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/",
+          "publish_date": "2023-02-13"
         },
         {
           "id": 3,
           "title": "«Думай, как математик»",
           "author": "Барбара Оакли",
           "lang": "en",
-          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/",
+          "publish_date": "2023-01-19"
         }
       ]},
 
@@ -59,21 +154,24 @@
           "title": "«Математика для взрослых. Лайфхаки для повседневных вычислений»",
           "author": "Кьяртан Поскитт",
           "lang": "kz",
-          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/",
+          "publish_date": "2023-01-20"
         },
         {
           "id": 2,
           "title": "«Красота в квадрате. Как цифры отражают жизнь и жизнь отражает цифры»",
           "author": "Алекс Беллос",
           "lang": "ru",
-          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/",
+          "publish_date": "2022-03-19"
         },
         {
           "id": 3,
           "title": "«Думай, как математик»",
           "author": "Барбара Оакли",
           "lang": "en",
-          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/"
+          "link": "https://www.litres.ru/bodo-shefer/iskusstvo-upravlyat-svoim-vremenem-8369086/",
+          "publish_date": "2022-01-11"
         }
       ]
     }
@@ -162,6 +260,7 @@
       "postId": 1
     }
   ],
+
   "profile": {
     "name": "typicode"
   }

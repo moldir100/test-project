@@ -8,6 +8,11 @@ import bootstrap from 'bootstrap/dist/js/bootstrap.bundle.js'
 
 import axios from 'axios'
 
+import router from './router'
+
+import HelloWorld from './components/HelloWorld.vue'
+
 new Vue({
-  render: h => h(App),
+  render: h => h(HelloWorld),
+  router
 }).$mount('#app').use(bootstrap).use(axios)
